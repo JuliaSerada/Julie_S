@@ -1,5 +1,6 @@
 import Lesson21_view
 import Lesson21_Logic
+import util
 
 
 # controller
@@ -11,15 +12,16 @@ def main():
         else:
             Lesson21_view.write("Error. User data is invalid.")
 
-    ls = create_list(size)
+    ls = util.create_list(size)
 
-    rnd_init_list(ls)
-    user_init_list(ls)
+   # rnd_init_list(ls)
+    util.user_init_list(ls)
 
     second = Lesson21_Logic.find_second_max_value(ls)
 
     msg = f"Second max value is {second}."
 
+    Lesson21_view.write(ls)
     Lesson21_view.write(msg)
 
 
