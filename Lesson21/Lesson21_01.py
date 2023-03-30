@@ -14,8 +14,8 @@ def main():
 
     ls = util.create_list(size)
 
-   # rnd_init_list(ls)
-    util.user_init_list(ls)
+    util.rnd_init_list(ls, -50, 50)
+   # util.user_init_list(ls)
 
     second = Lesson21_Logic.find_second_max_value(ls)
 
