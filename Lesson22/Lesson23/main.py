@@ -1,10 +1,11 @@
 from student import Student
-from student import init
 
 
 def main():
-    st1 = Student()
-    st2 = Student()
+    st1 = Student("Alex", 20, 10)
+    st2 = Student("Kate", 18, 7)
+    st3 = Student("Peter", 21, 9)
+    st4 = Student()
 
     # st1.init("Alex", 20, 10)
     # st2.init("Kate", 18, 9)
@@ -21,7 +22,7 @@ def main():
     # setattr(st1, "name", "Peter")
     # st1.__setattr__("name", "Olya")
 
-    print(vars(st1))
+    # print(vars(st1))
 
 
 # print(st1.__dict__)
