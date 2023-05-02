@@ -5,7 +5,8 @@ class Counter:
         else:
             self.__count = 0
 
-    def get_count(self):            # реализация метода инкапсуляции через get_count + 2 нижних подчеркивания __count
+    @property
+    def count(self):  # реализация метода инкапсуляции через get_count + 2 нижних подчеркивания __count
         return self.__count
 
     def increment(self):
