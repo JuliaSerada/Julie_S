@@ -9,6 +9,13 @@ class Counter:
     def count(self):  # реализация метода инкапсуляции через get_count + 2 нижних подчеркивания __count
         return self.__count
 
+    def set_count(self, count):
+        if count >= 0:
+            self.__count = count
+
+    def del_count(self):
+        del self.__count
+
     def increment(self):
         self.__count += 1
 
