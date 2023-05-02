@@ -7,6 +7,5 @@ p2 = Point2D(3, 4)
 print(p1)
 print(p2)
 
-manager = Manager()
-distance = manager.calculate_distance(p1, p2)
+distance = Manager.calculate_distance(p1, p2)
 print(f"Distance between points is {distance}.")
