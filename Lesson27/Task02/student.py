@@ -5,6 +5,9 @@ class Student:
         self.__alive = alive
         self.__mark = mark
 
+    def can_study(self):
+        print(self.__name + "can study.")
+
     @property
     def mark(self):
         return self.__mark

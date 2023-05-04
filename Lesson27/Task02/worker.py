@@ -5,6 +5,9 @@ class Worker:
         self.__alive = alive
         self.__salary = salary
 
+    def can_work(self):
+        print(self.__name + "can work.")
+
     @property
     def salary(self):
         return self.__salary
