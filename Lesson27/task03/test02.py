@@ -4,13 +4,14 @@ class Super1:
 
 
 class Super2:
-    def walk(self):
-        print("I can walk. ")
+    def run(self):
+        print("I can run. ")
 
 
-class Subclass(Super):
+class Subclass(Super1, Super2):
     pass
 
 
 sub = Subclass()
 sub.walk()
+sub.run()
