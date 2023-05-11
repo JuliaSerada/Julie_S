@@ -1,6 +1,6 @@
 import random
 import string
-from human import Human
+from Lesson27.Task02.human import Human
 
 
 # HumanCreator = Function Class

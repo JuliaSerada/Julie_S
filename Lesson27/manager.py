@@ -1,4 +1,4 @@
-from human import Human
+from Lesson27.Task02.human import Human
 
 
 # Manager = Function Class

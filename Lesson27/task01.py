@@ -1,4 +1,3 @@
-from human import Human
 from manager import Manager
 from human_creator import HumanCreator
 
