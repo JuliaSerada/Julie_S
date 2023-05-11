@@ -7,7 +7,7 @@ class Student(Human):
         self.__mark = mark
 
     def can_study(self):
-        print(self.name + "can study.")
+        print(self.name + " can study.")
 
     @property
     def mark(self):

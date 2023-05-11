@@ -7,7 +7,7 @@ class Worker(Human):
         self.__salary = salary
 
     def can_work(self):
-        print(self.name + "can work.")
+        print(self.name + " can work.")
 
     @property
     def salary(self):

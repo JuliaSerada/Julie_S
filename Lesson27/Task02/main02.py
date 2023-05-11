@@ -9,8 +9,11 @@ def main():
     worker = Worker("Volodya", 45, True, 2500)
 
     print(doc)
+    doc.can_cure()
     print(student)
+    student.can_study()
     print(worker)
+    worker.can_work()
 
 
 if __name__ == "__main__":

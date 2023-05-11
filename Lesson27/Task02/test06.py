@@ -7,7 +7,7 @@ class Doctor(Human):
         self.__experience = experience
 
     def can_cure(self):
-        print(self.name + "can cure.")
+        print(self.name + " can cure.")
 
     @property
     def experience(self):
