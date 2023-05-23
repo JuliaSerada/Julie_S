@@ -1,3 +1,6 @@
+from entity.product import Product
+
+
 class Milk:
     def __init__(self, volume=0, fat=0, money=0):
         self.__volume = volume
