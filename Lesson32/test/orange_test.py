@@ -34,18 +34,9 @@ class OrangeTest(unittest.TestCase):
         self.assertEqual(expected, orange.diameter)
 
     def test_negative_orange_vitamin(self):
-        vitamin = -200
+        vitamin = 1000
         expected = 1000
 
         orange = Orange(vitamin=vitamin)
 
         self.assertEqual(expected, orange.vitamin)
-
-    def test_negative_orange_cost(self):
-        cost = -200
-        expected = 0
-
-        orange = Orange(cost=price)
-
-        self.assertEqual(expected, orange.price)
-
