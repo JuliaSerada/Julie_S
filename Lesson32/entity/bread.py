@@ -1,5 +1,5 @@
 
-from entity.product import Product
+from Lesson32.entity.product import Product
 
 
 class Bread(Product):
