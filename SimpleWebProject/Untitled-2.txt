@@ -1,0 +1,2 @@
+<a>main page</a>
+<h1>welcome to page 2</h1>
