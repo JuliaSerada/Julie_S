@@ -8,7 +8,10 @@ def main():
     url = "https://www.google.com"
     driver = webdriver.Chrome()
     driver.maximize_window()
+    driver.implicitly_wait(10)
     driver.get(url)
+
+    # time.sleep(5)
 
     question_input = driver.find_element(By.NAME, "q")
 
